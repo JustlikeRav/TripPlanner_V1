@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:background="@color/colorAccent"
+    android:layout_margin="3dp">
+
+    <ImageView
+        android:id="@+id/imagePlace"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/imagePlace"
+        android:layout_marginStart="10dp"
+        android:text="@string/name"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"/>
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/imagePlace"
+        android:layout_below="@+id/name"
+        android:layout_marginStart="10dp"
+        android:text="@string/type"
+        android:textSize="15sp"
+        android:layout_marginTop="7dp" />
+
+    <TextView
+        android:id="@+id/addresss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/imagePlace"
+        android:layout_below="@+id/type"
+        android:layout_marginStart="10dp"
+        android:text="@string/address"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"/>
+
+    <RatingBar
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="0.1"
+        android:isIndicator="true"
+        android:layout_below="@+id/addresss"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/imagePlace"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_marginBottom="10dp"/>
+
+</RelativeLayout>

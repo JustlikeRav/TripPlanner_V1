@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "547626066316",
+    "firebase_url": "https://tripplanners-27941.firebaseio.com",
+    "project_id": "tripplanners-27941",
+    "storage_bucket": "tripplanners-27941.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547626066316:android:87190529b602e3f6",
+        "android_client_info": {
+          "package_name": "travelers.tripplanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547626066316-sc8hmu47hcofro5rlfkkplthni2melmb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWwz9G6n1j0IOwU9y8oMMwqH2aDLHVnfY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
